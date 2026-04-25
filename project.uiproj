@@ -1,0 +1,6 @@
+{
+  "Name": "DIL_Internship_Automation",
+  "ProjectType": "Process",
+  "Description": "This project automates DIL’s self-based internship letter process at NED University using UiPath RPA. OCR and Document Understanding extract data from scanned forms/PDFs, fill the official letter template, generate a PDF and email it to stakeholders, reducing manual work, errors and processing time while improving workflow efficiency.",
+  "MainFile": "Main.xaml"
+}
