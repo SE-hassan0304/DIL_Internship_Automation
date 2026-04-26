@@ -4,7 +4,15 @@
   "description": "This project automates DIL’s self-based internship letter process at NED University using UiPath RPA. OCR and Document Understanding extract data from scanned forms/PDFs, fill the official letter template, generate a PDF and email it to stakeholders, reducing manual work, errors and processing time while improving workflow efficiency.",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.System.Activities": "[26.2.4]"
+    "UiPath.DocumentUnderstanding.ML.Activities": "[2.1.0-preview]",
+    "UiPath.DocumentUnderstanding.OCR.LocalServer": "[2.0.0-preview]",
+    "UiPath.Excel.Activities": "[3.5.0-preview]",
+    "UiPath.FTP.Activities": "[3.0.0]",
+    "UiPath.IntelligentOCR.Activities": "[7.1.0-preview]",
+    "UiPath.Mail.Activities": "[2.8.10]",
+    "UiPath.PDF.Activities": "[4.1.0-preview]",
+    "UiPath.System.Activities": "[26.2.4]",
+    "UiPath.Word.Activities": "[2.5.0-preview]"
   },
   "webServices": [],
   "entitiesStores": [],
